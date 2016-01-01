@@ -16,12 +16,21 @@
 </head>
 <body>
     <div id="container">
-        <header id="header"></header>
-        <div id="contentView">
-			<span>Please see the console...</span>
-            <div class="loader">
-                <!-- <img src="loader.gif" alt="Loading..." /> -->
-            </div>
+    	<header id="header"></header>
+	<div id="contentView">
+		<span>Please see the console...</span>
+		<div class="loader">
+			<!-- <img src="loader.gif" alt="Loading..." /> -->
+		</div>
+		<div class="row container">
+			<div class="col-xs-4">
+				<select id="list" class="form-control" size="10"></select>
+			</div>
+			<div class="col-xs-8">
+				<button id="plusBtn" class="btn btn-default btn-block">+</button>
+				<button id="minusBtn" class="btn btn-default btn-block">-</button>
+			</div>
+		</div>
         </div>
         <footer id="footer"></footer>
         <div class="clear"></div>
